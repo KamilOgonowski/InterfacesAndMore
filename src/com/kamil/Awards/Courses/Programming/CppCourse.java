@@ -11,5 +11,7 @@ public class CppCourse extends Courses implements CourseInterface {
     @Override
     public void buyCourse() {
         System.out.println("You have no idea what you have just done!! Good luck");
+        priceInformation();
+
     }
 }

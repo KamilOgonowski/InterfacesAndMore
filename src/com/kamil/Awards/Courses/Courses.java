@@ -19,4 +19,12 @@ public class Courses {
         this.price = price;
 
     }
+
+    public double showThePrice(){
+        return price;
+    }
+
+    public void priceInformation(){
+        System.out.println("You paid $" + showThePrice() + " for your course!");
+    }
 }

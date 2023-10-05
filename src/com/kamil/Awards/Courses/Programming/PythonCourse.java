@@ -11,6 +11,7 @@ public class PythonCourse extends Courses implements CourseInterface {
     @Override
     public void buyCourse() {
         System.out.println("New wave, follow the snake!");
+        priceInformation();
 
     }
 }
