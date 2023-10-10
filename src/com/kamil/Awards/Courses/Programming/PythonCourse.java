@@ -8,19 +8,15 @@ public class PythonCourse extends Courses implements CourseInterface {
     public PythonCourse(double price) {
         super(price);
     }
-
     @Override
     public void buyCourse() {
         System.out.println("New wave, follow the snake!");
         priceInformation();
-
     }
-
     @Override
     public double getPrice() {
         return price;
     }
-
     @Override
     public String getType() {
         return type;

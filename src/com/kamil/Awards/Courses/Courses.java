@@ -13,9 +13,6 @@ public class Courses {
 //        price = scanner.nextDouble();
 //
 //    }
-
-
-
     public Courses(double price){
         this.price = price;
     }

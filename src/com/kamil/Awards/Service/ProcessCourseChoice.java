@@ -1,15 +1,17 @@
 package com.kamil.Awards.Service;
 
 import com.kamil.Awards.Courses.CourseInterface;
-import com.kamil.Awards.Courses.Programming.CppCourse;
-import com.kamil.Awards.Courses.Programming.JavaCourse;
-import com.kamil.Awards.Courses.Programming.PythonCourse;
 import com.kamil.Awards.User.User;
 
 public class ProcessCourseChoice {
 
     public CourseInterface programmingCourse;
     public User user;
+
+    public ProcessCourseChoice(){}
+    public ProcessCourseChoice(User user){
+        this.user = user;
+    }
 
     public void setProgrammingCourse(CourseInterface programmingCourse) {
         this.programmingCourse = programmingCourse;

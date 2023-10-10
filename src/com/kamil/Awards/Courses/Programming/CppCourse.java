@@ -13,14 +13,11 @@ public class CppCourse extends Courses implements CourseInterface {
     public void buyCourse() {
         System.out.println("You have no idea what you have just done!! Good luck and remember - there is no garbage collector..");
         priceInformation();
-
     }
-
     @Override
     public double getPrice() {
         return price;
     }
-
     @Override
     public String getType() {
         return type;

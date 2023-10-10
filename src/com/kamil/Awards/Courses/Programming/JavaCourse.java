@@ -13,14 +13,11 @@ public class JavaCourse extends Courses implements CourseInterface {
     public void buyCourse() {
         System.out.println("Good choice, you have decided to buy Java Course!");
         priceInformation();
-
     }
-
     @Override
     public double getPrice() {
         return price;
     }
-
     @Override
     public String getType() {
         return type;
