@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 public class Courses {
 
-    double price;
+    public double price;
     public static Scanner scanner = new Scanner(System.in);
-
 
 //    public Courses(){
 //        this(price);
@@ -15,16 +14,11 @@ public class Courses {
 //
 //    }
 
-    public Courses(int price){
+    public Courses(double price){
         this.price = price;
-
-    }
-
-    public double showThePrice(){
-        return price;
     }
 
     public void priceInformation(){
-        System.out.println("You paid $" + showThePrice() + " for your course!");
+        System.out.println("You paid $" + price + " for your course!");
     }
 }

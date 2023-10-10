@@ -4,7 +4,8 @@ import com.kamil.Awards.Courses.CourseInterface;
 import com.kamil.Awards.Courses.Courses;
 
 public class PythonCourse extends Courses implements CourseInterface {
-    public PythonCourse(int price) {
+    public final String type = "Python";
+    public PythonCourse(double price) {
         super(price);
     }
 
