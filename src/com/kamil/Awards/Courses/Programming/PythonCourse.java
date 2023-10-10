@@ -15,4 +15,14 @@ public class PythonCourse extends Courses implements CourseInterface {
         priceInformation();
 
     }
+
+    @Override
+    public double getPrice() {
+        return price;
+    }
+
+    @Override
+    public String getType() {
+        return type;
+    }
 }

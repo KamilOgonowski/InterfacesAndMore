@@ -14,6 +14,8 @@ public class Courses {
 //
 //    }
 
+
+
     public Courses(double price){
         this.price = price;
     }
